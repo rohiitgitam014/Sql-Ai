@@ -1,0 +1,4 @@
+streamlit
+pandas
+google-generativeai
+sqlite3  # part of Python standard library, included by default
