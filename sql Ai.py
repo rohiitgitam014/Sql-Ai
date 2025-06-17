@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # --- Gemini API Setup ---
 genai.configure(api_key="AIzaSyBXrDRzqrivXd3f3UqGMb4A-EA6n1y_KV0")  # 🔑 Replace with your actual key
-model = genai.GenerativeModel("models/gemini-1.5-pro")  # ✅ Correct model
+model = genai.GenerativeModel("gemini-2.0-flash")  # ✅ Correct model
 
 # --- Clean Gemini's SQL output ---
 def clean_sql_output(raw_sql):
