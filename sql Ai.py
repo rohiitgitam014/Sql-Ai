@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # 🔑 Gemini API Setup
 genai.configure(api_key="AIzaSyBXrDRzqrivXd3f3UqGMb4A-EA6n1y_KV0")  # Replace with your Gemini API Key
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # 🎯 Gemini Prompt Function
 def generate_sql(prompt):
